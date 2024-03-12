@@ -13,7 +13,7 @@ import Search from './LinkComponent/Search'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route exact path = "/" element = { <Home/> } />
         <Route path = "/discover" element = { <Discover/> } />
