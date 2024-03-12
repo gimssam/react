@@ -1,0 +1,22 @@
+/* footer 영역 */
+#footer {
+    font-size: 12px;
+    font-size: 0.75rem;
+    font-size: 1.5625vh;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    color: #515154;
+    min-width: 1024px;
+    /* (1024/1425)*100 = 71.85964912280701 */
+    min-width: 71.85964912280701vw;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    padding-top: 25px;
+    /* (25/768)*100 = 3.2552083333333335 */
+    padding-top: 3.2552083333333335vh;
+}

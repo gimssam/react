@@ -1,0 +1,54 @@
+/* 헤더영역 */
+#header {
+    background-color: rgba(240, 240, 240, 0.8);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+/* 상단 GNB 메뉴 */
+#header nav {
+    max-width: 980px;
+    /* (980/1425)*100 = 68.77192982456141 */
+    max-width: 68.77192982456141vw;
+    margin: 0 auto;
+}
+header .gnb {
+    height: 44px;
+    /* 플렉스 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .gnb li:hover {
+    color: #666;
+}
+/* 로고 */
+header .gnb strong {
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 4px;
+    margin-left: 4px;
+    /* line-height: 44px; */
+}
+header .gnb img {
+    margin-top: 0px;
+    margin-right: 4px;
+}
+header .gnb .logo {
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: -0.14px;
+    font-weight: 400;
+}
+header .gnb li {
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    font-weight: 300;
+}
+#header .gnb .svg,
+#header .gnb .search {
+    width: 17px;
+    /* (17/1425)*100 = 1.1929824561403508 */
+    width: 1.1929824561403508vw;
+    filter: invert(0%) sepia(95%) saturate(21%) hue-rotate(16deg) brightness(95%) contrast(105%);
+}

@@ -1,0 +1,65 @@
+#footer .footer_content {
+    width: 1024px;
+    /* (1024/1424)*100 = 71.91011235955057 */
+    width: 71.91011235955057vw;
+    padding: 0 22px;
+    /* (22/1425)*100 = 1.5438596491228072 */
+    padding: 0 1.5438596491228072vw;
+    margin: 0 auto;
+}
+
+/* 낭독기에는 읽히고 화면에는 안보이게 하는 sprite기법 */
+#footer .footer_content h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    /* clip : 일부분을 보이게 하는 클리핑 부분을 지정할수 있음
+    반드시 포지션을 써야함
+    참조 : https://developer.mozilla.org/ko/docs/Web/CSS/clip-path */
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+#footer .footer_content nav {
+    border-top: 1px solid #d2d2d7;
+    padding-top: 20px;
+    /* (20/768)*100 = 2.604166666666667 */
+    padding-top: 2.604166666666667vh;
+    /* 플렉스 */
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer .footer_content nav>div {
+    width: 20%;
+}
+#footer .footer_content nav h3 {
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: -0.12px;
+    margin-bottom: 9.6px;
+    /* (9.6/768)*100 = 1.25 */
+    margin-bottom: 1.25vh;
+}
+#footer .footer_content nav ul {
+    font-weight: 400;
+    line-height: 16px;
+    line-height: 1em;
+}
+#footer .footer_content nav ul li {
+    margin-bottom: 9.6px;
+    /* (9.6/768)*100 = 1.25 */
+    margin-bottom: 1.25vh;
+}
+#footer .footer_content nav>div:last-child>div:last-child {
+    margin-top: 24px;
+    /* (24/768)*100 = 3.125 */
+    margin-top: 3.125vh;
+}

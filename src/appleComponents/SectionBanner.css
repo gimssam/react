@@ -1,0 +1,64 @@
+/* SectionBanner */
+.banner {
+    width: 100%;
+    /* (560/768)*100 */
+    height: 72.916666666666667vh;
+    height: 560px;
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgb(15, 114, 197) 100%);
+    /* (12/560)*100 */
+    margin-bottom: 1.5625vh;
+    margin-bottom: 12px;
+}
+.banner .banner_content {
+    width: 980px;
+    /* (980/1425)*100 = 68.77192982456141 */
+    width: 68.77192982456141vw;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.banner .banner_content div {
+    width: 520px;
+    /* (520/1425)*100 = 36.49122807017544 */
+    width: 36.49122807017544vw;
+    margin: 0 auto;
+    padding: 36px;
+    /* (36/560)*100 = 6.428571428571428 */
+    /* (36/1425)*100 = 2.526315789473684 */
+    padding: 6.428571428571428vh 2.526315789473684vw;
+    letter-spacing: -1px;
+}
+.banner .banner_content div h3,
+.banner .banner_content div h5 {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    /* (32/560)*100 = 5.714285714285714 */
+    font-size: 2rem;
+    font-size: 5.714285714285714vh;
+    font-size: 32px;
+    color: #f5f5f7;
+    line-height: 1.125;
+    font-weight: 500;
+}
+.banner .banner_content div h5 {
+    font-size: 18px;
+    /* (18/560)*100 = 3.214285714285714 */
+    font-size: 3.214285714285714vh;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0.012em;
+    margin-top: 8px;
+    /* (8/560)*100 = 1.4285714285714286 */
+    margin-top: 1.4285714285714286vh;
+}
+.banner .banner_bg {
+    /* (376/768)*100 = 48.95833333333333 */
+    height: 376px;
+    height: 48.95833333333333vh;
+    /* background: url('./build-apps_2x.png'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* (50/560)*100 = 8.928571428571429 */
+    margin-top: -8.928571428571429vh;
+}

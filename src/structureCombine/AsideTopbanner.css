@@ -1,0 +1,21 @@
+/* 탑배너 */
+.top_banner {
+    height: 76px;
+    background: linear-gradient(180deg, #399fd5 0%, #0983ff 100%);
+    text-align: center;
+    line-height: 76px;
+}
+.top_banner h4:after {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 13px;
+    color: #fff;
+    padding-left: 5px;
+    display: inline-block;
+}
+.top_banner h4 {
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+}

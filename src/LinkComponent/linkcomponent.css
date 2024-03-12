@@ -1,0 +1,19 @@
+.linkComponent {
+    text-align: center;
+}
+.linkComponent>section {
+    background: #000;
+}
+.linkComponent>section>h2 {
+    font-size: 1.5rem;
+    padding: 32px;
+    color: #fff;
+}
+.linkComponent>section>p {
+    font-size: 1.1rem;
+    padding-bottom: 16px;
+    color: #fff;
+}
+.linkComponent section>img {
+    width: 100%;
+}
